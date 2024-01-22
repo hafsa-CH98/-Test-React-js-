@@ -1,32 +1,13 @@
 import "./App.css";
+import Card from "./card";
 
 function App() {
   return (
-    <div className="container">
-      <div className="card">
-        <div className="image"></div>
-        <h3>Hafsa</h3>
-        <p>student</p>
-        <p>html css js react</p>
-      </div>
-      <div className="card">
-        <div className="image"></div>
-        <h3>Amina</h3>
-        <p>student</p>
-        <p>html css js react</p>
-      </div>
-      <div className="card">
-        <div className="image"></div>
-        <h3>Asmaa</h3>
-        <p>student</p>
-        <p>html css js react</p>
-      </div>
-      <div className="card">
-        <div className="image"></div>
-        <h3>Salma</h3>
-        <p>student</p>
-        <p>html css js react</p>
-      </div>
+    <div className="big_conatiner">
+      <Card name="hafsa" stutus="student" p="html css js react" />
+      <Card name="meriem" stutus="student" p="html css js react1" />
+      <Card name="omar" stutus="student" p="html css js react2" />
+      <Card name="rachid" stutus="student" p="html css js react3" />
     </div>
   );
 }
